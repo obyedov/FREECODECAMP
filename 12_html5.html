@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nidificare un elemento di ancoraggio all'interpno di un aragrafo</title>
+</head>
+<body>
+  <!--
+    
+Puoi annidare i link all'interno di altri elementi di testo.
+
+<p>
+  Here's a <a target="_blank" href="https://www.freecodecamp.org"> link to www.freecodecamp.org</a> for you to follow.
+</p>
+Andiamo a scomporre l'esempio. Il testo normale viene inserito nell'elemento p:
+
+<p> Here's a ... for you to follow. </p>
+Poi viene l'elemento anchor<a> (che richiede un tag di chiusura </a>):
+
+<a> ... </a>
+target è un attributo tag di ancoraggio che specifica dove aprire il collegamento. Il valore _blank specifica di aprire il collegamento in una nuova scheda. L' href è un attributo tag di ancoraggio che contiene l'indirizzo URL del collegamento:
+
+<a href="https://www.freecodecamp.org" target="_blank"> ... </a>
+Il testo, link to www.freecodecamp.org all'interno dell'elemento a si chiama testo di ancoraggio, e mostrerà il link sul quale cliccare:
+
+<a href=" ... " target="...">link to freecodecamp.org</a>
+L'output finale dell'esempio sarà simile a questo:
+
+Here's a link to www.freecodecamp.org for you to follow.
+
+Annida l'elemento a esistente all'interno di un nuovo elemento p. Non creare un nuovo elemento di ancoraggio. Il nuovo paragrafo dovrebbe contenere testo che dice View more cat photos, dove cat photos è un collegamento, e il resto è testo semplice.
+  -->
+  <h2>CatPhotoApp</h2>
+<main>
+  <p>View more
+    <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a>
+  </p>
+  
+
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+</main>
+</body>
+</html>
